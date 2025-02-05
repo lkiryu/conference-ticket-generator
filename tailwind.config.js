@@ -22,9 +22,9 @@ export default {
         Inconsolata: ["Inconsolata", "serif"],
       },
       backgroundImage: {
-        background_desktop: "url(assets/images/background-desktop.png)",
-        pattern_lines: "url(assets/images/pattern-lines.svg)",
-        pattern_ticket: "url(assets/images/pattern-ticket.svg)",
+        background_desktop: "url(/assets/images/background-desktop.png)",
+        pattern_lines: "url(/assets/images/pattern-lines.svg)",
+        pattern_ticket: "url(/assets/images/pattern-ticket.svg)",
       },
     },
   },
