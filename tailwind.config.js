@@ -1,16 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      '2xl': { 'max': '1535px' },
-      'xl': { 'max': '1280px' },
-      'lg': { 'max': '1024px' },
-      'md': { 'max': '820px' },
-      'sm': { 'max': '640px' },
+      "2xl": { max: "1535px" },
+      xl: { max: "1280px" },
+      lg: { max: "1024px" },
+      md: { max: "820px" },
+      sm: { max: "640px" },
     },
     extend: {
       colors: {
@@ -22,15 +19,14 @@ export default {
         orange_700: "hsl(7, 71%, 60%)",
       },
       fontFamily: {
-        Inconsolata: ["Inconsolata", "serif"]
+        Inconsolata: ["Inconsolata", "serif"],
       },
       backgroundImage: {
-        background_desktop: "url(./src/assets/images/background-desktop.png)",
-        pattern_lines: "url(./src/assets/images/pattern-lines.svg)",
-        pattern_ticket: "url(./src/assets/images/pattern-ticket.svg)"
-      }
+        background_desktop: "url(assets/images/background-desktop.png)",
+        pattern_lines: "url(assets/images/pattern-lines.svg)",
+        pattern_ticket: "url(assets/images/pattern-ticket.svg)",
+      },
     },
   },
   plugins: [],
-}
-
+};
